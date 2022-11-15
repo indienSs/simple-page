@@ -16,6 +16,7 @@ body {
   width: 300px;
   border-radius: 15px;
   height: auto;
+  position: relative;
 }
 
 .photo {
@@ -35,6 +36,7 @@ body {
 .buttons {
   display: flex;
   gap: 10px;
+  justify-content: center;
 }
 
 .email-button {
@@ -97,4 +99,15 @@ body {
 .footer-logo {
   width: 25px;
   cursor: pointer;
+}
+
+.topic {
+  text-align: center;
+}
+
+.image-selector {
+  width: 70px;
+  position: absolute;
+  cursor: pointer;
+  right: 10px;
 }
