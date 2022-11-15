@@ -1,26 +1,22 @@
 import React from "react";
-import "./style.css";
 
 const App = () => (
   <div className="app">
-    <img src="https://sun4.userapi.com/sun4-16/s/v1/ig2/LCN6jdbyxtvBO5s7ZkLd4n-alXF0fUOrok7Phi2zd28l1_Hbuq-rGu3Hc2L_9UPi6xOZZrRODU6JQ4o1ft2JhIjG.jpg?size=810x1080&quality=96&type=album" 
+    <img src="/images/photo.jpg" 
     alt="profile-photo" 
     className="photo" />
     <h1 className="title">Oleg Andrianov</h1>
-    <h4 className="profession"> Frontend developer</h4>
+    <h4 className="profession">Frontend developer</h4>
     <p className="website">Simple website</p>
     <div className="buttons">
       <button className="email-button">
-        <img src="./mail.png" 
+        <img src="/images/mail.png" 
         alt="" 
         className="email-logo"
         />
         Email
       </button>
       <button className="github-button">
-        <img src="./github.png" 
-        alt="" 
-        className="github-logo"/>
         Github
         </button>
     </div>
@@ -37,9 +33,9 @@ const App = () => (
       </p>
     </div>
     <footer className="footer">
-      <img src="./instagram" alt="" className="footer-logo" />
-      <img src="./facebook" alt="" className="footer-logo" />
-      <img src="./twitter" alt="" className="footer-logo" />
+      <img src="/images/facebook.png" alt="" className="footer-logo" />
+      <img src="/images/instagram.png" alt="" className="footer-logo" />
+      <img src="/images/twitter.png" alt="" className="footer-logo" />
     </footer>
   </div>
 );
